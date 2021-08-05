@@ -153,7 +153,10 @@ I created the pathway to where each should go and then a for loop (below) that i
 on my pathway.
 
 _An example of this for loop_
-`for (let i = 0; i < proTime.length; i++) { proTime[i].innerText = timeArray[i]; }`
+
+```
+for (let i = 0; i < proTime.length; i++) { proTime[i].innerText = timeArray[i]; }
+```
 
 This meant that Tasty TV could now add new programs by creating adding new object literals to the object and creating new path ways
 in the HTML. while it all looks the same as before, it is vastly different in the use of the site moving forward.
