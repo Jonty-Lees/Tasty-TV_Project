@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TastyTV - Home</title>
+  </head>
+  <body>
+    <!-- Header is same on every page for continuity -->
+    <div class="header">
+      <div class="header-logo"><a href="/index.html"> Tasty TV </a></div>      
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/live.html">Live</a></li>
+          <li><a href="/demand.html">Demand</a></li>
+        </ul>
+      </nav>
+      <button class="signin_button"><a href="">Sign In</a></button>
+    </div>
+    <!-- Each page has differnet body class, this helps with @media queries -->
+    <div class="home-body">
+    <div class="title_segment">
+      <img src="/Images/Batman.jpg" alt="Batman looking out upon Gothom" />
+      <div id="title_text">THE NEW SITE FOR TRULEY UNLIMTED MOVIES AND TV</div>
+    </div>
+    <div class="containers">
+      <hr />
+      <div id="about-cont">
+        <img
+          src="https://p4.wallpaperbetter.com/wallpaper/735/854/560/explorer-interstellar-wallpaper-preview.jpg"
+          alt=""
+        />
+        <div>
+          <h3 class="text-header"> So, Who Are We?</h3>
+          <p class="text-body">Tasty TV is a live streaming Movie and TV platform, that aims to blend the 'old' ways of programmed TV and 'new' ways of on-demand watching. We aim to offer our generation Movies and TV that they may not have had the chance to see. Our passion is your Cinematic Discovery!</p>
+        </div>
+      </div>
+      <hr />
+      <!-- Below is where you can update the Annoucements -->
+      <div id="annouce-cont">
+        <div>
+            <h3 class="text-header"> Latest Annoucements And News</h3>
+            <p class="text-body">As Earthlings, we believe that it is our responsibility to not only defend it from aliens, but take care of it during times of intergaltic peace. Soon we will be running Earth Week. We will be showcasing the best Movies and TV that focuse on our planet and what we can do to keep it beautiful</p>
+        </div>
+        <img
+          src="https://www.extremetech.com/wp-content/uploads/2015/12/Editorial_Image_1201-640x360.jpg"
+          alt=""
+        />
+      </div>
+      <hr />
+
+      <!-- Signup button directs to Demand.html page where registration is taken -->
+      <div id="signup-cont">
+        <div class="sign-up-text">
+          <div id="su-header">
+            You're Keen... Why wait?!
+          </div>
+          <div id="su-text">
+            Register now and get a free, random Tasty TV Movie or TV Show to watch now!
+          </div>
+          <a href="demand.html"><button> REGISTER NOW</button></a>
+        </div>
+      </div>
+      <hr />
+      <div id="faq-recommend-cont">
+        <div class="recommend">
+          <h3 class="text-header">
+            Are we missing a must see?
+          </h3>
+          <div id="rec-text-2">
+              Let us know your reccomendations below
+            </div>
+          <div id="rec-input">
+            <form>
+              <textarea placeholder="Movie or TV Show Title" cols="30" rows="10"></textarea>
+            <br>
+              <button class="submit">Submit</button>
+          </form>
+            </div>
+        </div>
+      <div class="faq">
+        <h3 class="text-header">F.A.Q's</h3>
+        <button type="button" class="faq-collapsible ">How Much Does It Cost?</button>
+    <div class="faq-content">
+      <p>
+        Tasty TV Live is free to watch at any time. Tasty TV Demand is also free, but you need to create an account... Its as easy as that!
+      </p>
+    </div>
+
+    <button type="button" class="faq-collapsible">What Can I Watch?</button>
+    <div class="faq-content">
+      <p>
+        Tasty TV has an extensive library of feature films, documentaries, TV programmes, anime and more. Watch as much as you want, any time you want.
+      </p>
+    </div>
+
+    <button type="button" class="faq-collapsible">Is Tasty TV Good For Children?</button>
+    <div class="faq-content">
+      <p>
+        Of course it is! We provide a great selction of childrens movies and TV
+      </p>
+    </div>
+  </div>
+    </div>
+  </div>
+  <!-- Footer is the same on each page for continuty -->
+    <div class="footer" id="home-footer">
+      <nav class="footer-nav">
+        <ul class="social-links">
+          <li > <a href="https://www.youtube.com/" target="_blank"><img src="/Images/youtube.jpg" alt="youtube logo" /></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img src="/Images/insta.jpg" alt="instagram logo" /></a></li>
+          <li><a href="https://uk.linkedin.com/" target="_blank"><img src="/Images/linkedin.jpg" alt="linkedin logo" /></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><img src="/Images/facebook.jpg" alt="facebook logo" /></a></li>
+          <li><a href="https://twitter.com/" target="_blank"><img src="/Images/twitter.jpg" alt="twitter logo" /></a></li>
+        </ul>
+      </nav>
+
+      <div class="header-logo-footer"><a href=""> Tasty TV </a></div>
+    </div>
+    <script src="newscript.js"></script>
+  </body>
+</html>
