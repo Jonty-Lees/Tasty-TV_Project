@@ -6,8 +6,10 @@ companies side.
 
 ---
 
-##Pages
-###Home Page
+## Pages
+
+### Home Page
+
 The home page _(index.html)_ needed to have a quick wow factor to intrigue the user but also carry the fair bit of information
 It needed to have
 
@@ -21,7 +23,8 @@ It needed to have
 - FAQ that doesn't clutter
 - Footer with Social link
 
-###Live Page
+### Live Page
+
 The live page _(live.html)_ needed to formate and execute a lot of information in an easy, readable way for any user but also
 be easy to update at quick notice from Tasty TV Team.
 It needed to have
@@ -33,7 +36,8 @@ It needed to have
 - The Time, Title, Discription and Image of each program airing
 - Footer with Social link
 
-###Demand Page
+### Demand Page
+
 The Demand page _(demand.html)_ needed to ultimatly be a page that got users to register, to start their onDemand access with Tasty TV. I did this by showcasing
 the most watched movies and TV and made a clear registation form, that allowed the user to then randomise their free streaming program
 It needed to have
@@ -46,7 +50,7 @@ It needed to have
 
 ---
 
-##Technologies
+## Technologies
 
 1. html
 2. css
@@ -81,9 +85,9 @@ user storie, I tried to create something that was easy to use and fit the needs 
 
 ---
 
-##development process and problem-solving strategy
+## Development process and problem-solving strategy
 
-###Home Page
+### Home Page
 
 I kicked it all off with this page, I started with the layout and decided as its a fairly Simplistic design
 I would go with a flex display. Making sure the **header**, with the Logo and navbar, looked good was important to
@@ -114,7 +118,7 @@ The **Footer** was fairly simple to mirror the header. I embeded the social link
 
 ---
 
-###Live Page
+### Live Page
 
 This page was loosly based on some of the design features of the BBC iPlayer live tv schedual. I wanted something really easy to read
 and understand as well as pictoral.
@@ -149,9 +153,7 @@ I created the pathway to where each should go and then a for loop (below) that i
 on my pathway.
 
 _An example of this for loop_
-' for (let i = 0; i < proTime.length; i++) {
-proTime[i].innerText = timeArray[i];
-}'
+`for (let i = 0; i < proTime.length; i++) { proTime[i].innerText = timeArray[i]; }`
 
 This meant that Tasty TV could now add new programs by creating adding new object literals to the object and creating new path ways
 in the HTML. while it all looks the same as before, it is vastly different in the use of the site moving forward.
@@ -186,7 +188,7 @@ dayButton.addEventListener("click", () => {
 
 ---
 
-###Demand Page
+### Demand Page
 
 This page was the really tough but ultimatly shouldnt have been so hard!
 
@@ -222,7 +224,7 @@ The rest of the page was fairly easy as was just adding pictures for the showcas
 
 ---
 
-## Futer Iterations and Unsolved Problems
+## Future Iterations and Unsolved Problems
 
 For the Future Here are somethings I would like to add and figure out
 
