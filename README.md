@@ -1,5 +1,8 @@
 # Tasty TV Project
 
+This website is hosted through Netlify at this link:
+https://csb-7s93l.netlify.app/
+
 In this project for Tasty TV, I wanted to create a simple website that is incredibly easy to navigate,
 clear with what it does, add an element of fun with a randomizer and is ultimatly, easy to upkeep from the
 companies side.
